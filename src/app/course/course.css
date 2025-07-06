@@ -1,0 +1,48 @@
+.course-row {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+  background: #000000;
+}
+
+.course-image {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.course-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.course-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.course-price {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.course-rate {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f39c12;
+  margin-left: 16px;
+  min-width: 48px;
+  text-align: right;
+}
+
+
+
+
