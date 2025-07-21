@@ -1,3 +1,57 @@
+.courses{
+  width: 100%;
+  position: absolute;
+  /* top: 75%; */
+  /* left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -0%); */
+  left: 0;
+  bottom: 3rem;
+}
+
+.input{
+  margin-inline-start: 1cm;
+  margin-inline-end: 1cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  min-width: 7cm;
+}
+
+
+
+.form-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* makes inputs responsive in columns */
+  gap: 20px; /* spacing between each form-group */
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column; /* stack label and input vertically */
+  width: 15rem;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+button{
+  width: 8rem;
+  height: 2rem;
+  margin: 5px 5px 5px 5px;
+  background-color: #f39c12;
+}
+
+.btn-group{
+    margin: 0;
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 .course-row {
   display: flex;
   width: 60%;
@@ -43,6 +97,10 @@
   text-align: right;
 }
 
-
-
-
+.ColDef {
+  flex: 1,
+}
+.courses-grid{
+  height: 500px;
+  margin: 8 8 8 8;
+}
